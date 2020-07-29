@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RAGEMP-DiscordIntegration": {
+      "commandName": "Executable",
+      "executablePath": "C:\\RAGEMP\\server-files\\ragemp-server.exe"
+    }
+  }
+}
