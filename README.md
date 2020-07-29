@@ -64,7 +64,7 @@ public class Yes : Script
     [Command("botstatus")]
     public async void UpdateBotStatusCommand(Player player, string gameName, Discord.ActivityType eActivityType, Discord.UserStatus eUserStatus)
     {
-        await Integration.DiscordIntegration.UpdateBotStatus(gameName, eActivityType, eUserStatus).ConfigureAwait(true);
+        await Integration.DiscordIntegration.UpdateStatus(gameName, eActivityType, eUserStatus).ConfigureAwait(true);
     }
 
 }
