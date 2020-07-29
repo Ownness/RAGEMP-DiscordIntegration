@@ -16,7 +16,7 @@ Features:
 2. Create a bot.
 3. Invite bot to discord server.
 4. Use the token from your bot to initialize the bot as shown in the example below.
-5. Register/Remove channesl from where your bot sends to all players.
+5. Register/Remove channels from where your bot sends to all players.
 
 # Example script:
 ```cs
